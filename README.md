@@ -24,7 +24,7 @@ This script requires the following Python packages:
 
 ## Usage
 1. **Setup the Directory Structure**:
-    Ensure that the folder structure is set up as follows:
+    Organize the image you want to detect in this strcture:
     ```
     ├── test_data
     │   ├── folder1
