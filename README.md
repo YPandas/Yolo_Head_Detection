@@ -33,22 +33,29 @@ This script requires the following Python packages:
     │   └── folder2
     │       ├── image3.jpeg
     ```
-    
-2. **Modify the Script**:
-   Update the following paths in the script:
-   - `yolo_model` path: Path to your YOLO model weights.
-   - `head_model` path: Path to your pre-trained head detection model.
 
-3. **Run the Script**:
-    ```
-    python yolo_head-detection.py
-    ```
+2. **Download Pre-trained Models**:
+   - Download your pre-trained YOLO model (`.pt` file) and head detection model from Google Drive(https://drive.google.com/drive/folders/1GjiDxO9aWXTvQbKw-52DEWO8bFQH8Uzi?usp=drive_link).
+   
+3. **Modify the Script**:
+   Update the following paths in the script to point to the downloaded model paths:
+   - `yolo_model` path: Path to your downloaded YOLO model weights (e.g., `./yolo_weights/yolov8l.pt`).
+   - `head_model` path: Path to your pre-trained head detection model (e.g., `./models/head_detection.model`).
 
-## Example Command
-Run the script as shown below:
-```
-python yolo_head-detection.py
-```
+4. **Set Up the Python Environment**:
+   Create a new virtual environment using Conda and install dependencies:
+   ```
+   conda create -n [your_environment_name] python=3.10.14
+   conda activate [your_environment_name]
+   pip install -r requirements.txt
+   ```
+
+5. **Run the Script**:
+   After setting up the environment and installing dependencies, run the script:
+   ```
+   python yolo_head_detection.py
+   ```
+
 
 ## Output
 The script will generate:
