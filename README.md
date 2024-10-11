@@ -41,13 +41,13 @@ This script requires the following Python packages:
 
 3. **Run the Script**:
     ```
-    python your_script_name.py
+    python yolo_head-detection.py
     ```
 
 ## Example Command
 Run the script as shown below:
 ```
-python your_script_name.py
+python yolo_head-detection.py
 ```
 
 ## Output
